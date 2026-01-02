@@ -1,2 +1,61 @@
-# ai-prompt-library
-A curated collection of AI prompts for development, learning, and productivity. Organized and version-controlled for easy reuse.
+# AI Prompt Library
+
+개인적으로 자주 사용하는 LLM 프롬프트를 버전 관리하고, 재사용성과 재현성을 높이기 위한 라이브러리입니다.
+
+## 📁 구조
+
+```
+ai-prompt-library/
+├── README.md              # 이 파일
+├── system/                # 시스템 프롬프트, 커스텀 지시문
+├── chat/                  # 자주 쓰는 챗팅/질문 프롬프트
+│   ├── dev.md            # 개발용 (코드 리뷰, 설계, 디버깅)
+│   └── learning.md       # 학습용 (의학, 일본어, 이론)
+├── code/                  # 코드 생성/리팩터링용 프롬프트
+├── workflow/              # 시퀀스 프롬프트 (RAG 구축 등)
+└── templates/             # 변수만 바꿔 쓰는 템플릿
+```
+
+## 📝 프롬프트 작성 규칙
+
+각 프롬프트 파일은 다음 형식을 따릅니다:
+
+```markdown
+# 제목: [프롬프트 이름]
+
+## 목적
+- 이 프롬프트를 사용하는 목적과 상황을 설명
+
+## 프롬프트
+```
+[실제 프롬프트 내용]
+```
+
+## 사용 팁
+- 효과적인 사용 방법
+- 주의사항
+- 변형 아이디어
+
+## 예시
+- 실제 사용 예시 (선택사항)
+```
+
+## 🎯 사용 방법
+
+1. 카테고리별로 프롬프트를 찾습니다
+2. 필요한 프롬프트를 복사하여 사용합니다
+3. 프롬프트 개선 사항이 있으면 커밋 메시지에 이유를 기록합니다
+
+## 🏷️ Topics
+
+- `prompt-collection`
+- `llm`
+- `knowledge-base`
+- `ai-tools`
+- `productivity`
+
+## 📌 참고
+
+- 프롬프트는 지속적으로 업데이트됩니다
+- 각 프롬프트는 실제 사용 경험을 바탕으로 작성되었습니다
+- 개인 워크플로우에 맞게 자유롭게 수정하여 사용하세요
